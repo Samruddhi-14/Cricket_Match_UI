@@ -1,0 +1,122 @@
+.container{
+    font-family: 'Inter', sans-serif;
+    padding: 30px 20px 30px 20px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.players{
+    display: inline-block;
+    width: 100%;
+}
+
+.match_details_container{
+    display: inline-block;
+    width:900px;
+    padding: 10px;
+    border: 2px black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.player_of_match_detail{
+    display: inline-block;
+    width: 550px;
+    padding: 10px;
+    border: 2px black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.player_of_match_detail img{
+    border-radius: 60%;
+}
+
+.img_cap1{
+    margin-left: 7px;
+    font-size: 25px;
+    font-weight:lighter;
+    opacity: 0.6
+}
+.img_cap2{
+    margin-left: 7px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.team2_runs{
+    font-weight:lighter;
+    font-size: 25px;
+}
+table {
+    font-family: 'Inter', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+  
+thead {
+    font-family: 'Inter', sans-serif;
+    padding: 8px;
+    width: 70%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+td{
+    padding: 8px;
+}
+tr:nth-child(odd) {
+    font-family: 'Inter', sans-serif;
+    background-color: #D6EEEE;
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+.button {
+    font-family: 'Inter', sans-serif;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid  #D6EEEE;
+    border-radius: 10px;
+}
+  
+.button1:hover {
+    background-color: #D6EEEE;
+    color: #008CBA;
+}
+  
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid  #D6EEEE;
+    border-radius: 10px;
+}
+  
+.button2:hover {
+    background-color:  #D6EEEE;
+    color:#008CBA;
+}
+
+

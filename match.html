@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "style.css">
+
+    
+    <title>Match Player Details</title>
+</head>
+<body>
+    <div class = "players"></div>
+
+    <br>
+    <br>
+    <table>
+        <caption style = "font-weight: lighter; font-size: 20px; text-align: left;"> Netherlands Innings </caption>
+        <thead>
+            <tr>
+                <th> Player Name </th>
+                <th> Has Batted </th>
+                <th> Runs </th>
+                <th> Balls Faced </th>
+                <th> Strike Rate </th>
+            </tr>
+            <tbody id = "team1_players">
+            </tbody>
+        </thead>
+    </table>
+    <br>
+    <br>
+    <table>
+        <caption style = "font-weight: lighter; font-size: 20px; text-align: left;"> Afganisthan Innings </caption>
+        <thead>
+            <tr>
+                <th> Player Name </th>
+                <th> Has Batted </th>
+                <th> Runs </th>
+                <th> Balls Faced </th>
+                <th> Strike Rate </th>
+            </tr>
+            <tbody id = "team2_players">
+               
+            </tbody>
+        </thead>
+    </table>
+
+    <script src="script.js" type="text/javascript">
+        window.onload = function what(){
+        document.getElementById('players').innerHTML = x
+        document.getElementById('team1_players').innerHTML = y
+        document.getElementById('team2_players').innerHTML = z
+    };
+    </script>
+</body>
+</html>
